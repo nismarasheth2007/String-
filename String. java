@@ -1,0 +1,45 @@
+
+public class StringExample {
+    public static void main(String[] args) {
+
+        String name = "Java Programming";
+
+        System.out.println("String: " + name);
+        System.out.println("Length: " + name.length());
+        System.out.println("Uppercase: " + name.toUpperCase());
+        System.out.println("Lowercase: " + name.toLowerCase());
+        System.out.println("Character: " + name.charAt(0));
+    }
+}
+
+// stringoperators . equals
+
+public class StringEquals {
+    public static void main(String[] args) {
+
+        String a = "Java";
+        String b = "Java";
+
+        if (a.equals(b)) {
+            System.out.println("Strings are equal");
+        } else {
+            System.out.println("Strings are not equal");
+        }
+    }
+}
+
+// stringoperators ==
+public class StringOperator {
+    public static void main(String[] args) {
+
+        String a = "Java";
+        String b = new String("Java");
+
+        if (a == b) {
+            System.out.println("Both references are same");
+        } else {
+            System.out.println("Both references are different");
+        }
+    }
+}
+
